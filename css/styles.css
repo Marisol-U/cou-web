@@ -1,0 +1,43 @@
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+.cont-text {
+  background-color: #61122f;
+  color: white;
+  padding: 15px 20px;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+.navbar-collapse .navbar-nav li {
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-nav {
+  margin: inherit;
+}
+
+@media (max-width: 767px) {
+  .m-xs {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .navbar-brand {
+    padding-left: 40px;
+  }
+}
